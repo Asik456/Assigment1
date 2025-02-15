@@ -10,10 +10,10 @@ public class Main {
 
         Chat chat = context.getBean(Chat.class);
 
-        User alikhan = new User("Alikhan");
+        User alisher = new User("Alisher");
         User serik = new User("Serik");
 
-        chat.sendMessage(alikhan, "Hey, wassup Serik!");
+        chat.sendMessage(alisher, "Hey, wassup Serik!");
         chat.sendMessage(serik, "Hi, How are you?");
     }
 }
